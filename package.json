@@ -8,6 +8,7 @@
     "typecheck": "tsc --noEmit",
     "build": "tsc"
   },
+  "files": ["dist/**/*.js", "dist/**/*.ts"],
   "type": "module",
   "repository": {
     "type": "git",
