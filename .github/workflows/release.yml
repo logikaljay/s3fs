@@ -19,7 +19,10 @@ jobs:
 
       - run: npm ci
       - run: npm run build --if-present
-      - run: cd dist && npx semantic-release
+      - run: |
+          cd dist 
+          cp ../package.json ./
+          npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
