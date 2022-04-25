@@ -67,7 +67,7 @@ Provide NodeJS style fs/promises for S3.
 ### Installation
 1. Tell NPM to use GitHub Packages for packages in the @logikaljay organisation (if you haven't already)
     ```bash
-    $ npm login --scope=@logikaljay --registry=https://npm.pkg.github.com
+    $ npm config set @logikaljay:registry https://npm.pkg.github.com
     ```
 2. Install package
     ```bash
