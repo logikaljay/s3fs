@@ -5,7 +5,7 @@ import { destructurePath } from "./utils/destructurePath.js"
 /**
  * @example
  * ```typescript
- * import { getClient } from "@logikaljay/s3fs"
+ * import { getClient, unlink } from "@logikaljay/s3fs"
  * 
  * const client = await getClient()
  * await client.unlink('my-bucket/screenshot-to-delete.png')
