@@ -43,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Screenshot][product-screenshot]](https://s3fs.logikaljay.vercel.app)
+[![Screenshot][product-screenshot]](https://s3fs.vercel.app)
 
 Provide NodeJS style fs/promises for S3.
 
