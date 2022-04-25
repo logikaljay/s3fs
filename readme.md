@@ -32,13 +32,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-        <li>
-          <a href="#examples">Examples</a>
-          <ul>
-          <li><a href="#typescript-example">TypeScript Example</a></li>
-          <li><a href="#esm-example">ESM Example</a></li>
-          <li><a href="#cjs-example">CJS Example</a></li>
-        </li>
+        <li><a href="#example">Example</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -80,7 +74,7 @@ Provide NodeJS style fs/promises for S3.
     $ npm i --save @logikaljay/s3fs
     ```
 
-### Examples
+### Example
 
 #### Create a client
 
